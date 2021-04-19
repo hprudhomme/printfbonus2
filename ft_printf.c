@@ -193,9 +193,9 @@ int main()
 {   
     int x;
     int y;
-    x = ft_printf("%3.3x", -4242);
+    x = ft_printf("%-24d", -2147483648);
     printf("\n");
-    y = printf("%3.3x", -4242);
+    y = printf("%-24d", -2147483648);
     printf("\n");
     printf("x = %d & y = %d\n", x, y);
 

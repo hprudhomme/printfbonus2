@@ -88,6 +88,7 @@ int			ft_treat_int(int i, t_flags flags)
 		char_count++;
 	}
 	i_to_str = ft_itoa(i);
+	printf("str = %s\n", i_to_str);
 	char_count += ft_put_part_int(i_to_str, save_i, flags);
 	free(i_to_str);
 	return (char_count);
